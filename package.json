@@ -1,0 +1,23 @@
+{
+  "name": "qa-portfolio-project2",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework for a banking application using Page Object Model, CI/CD and modern QA practices.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstraAdCy/qa-portfolio-project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AstraAdCy/qa-portfolio-project2/issues"
+  },
+  "homepage": "https://github.com/AstraAdCy/qa-portfolio-project2#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
