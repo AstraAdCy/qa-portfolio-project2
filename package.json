@@ -18,6 +18,10 @@
   "homepage": "https://github.com/AstraAdCy/qa-portfolio-project2#readme",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.1"
+    "@types/node": "^26.1.1",
+    "@wdio/types": "^9.29.1"
+  },
+  "dependencies": {
+    "webdriverio": "^9.29.1"
   }
 }
