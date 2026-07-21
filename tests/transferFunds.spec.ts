@@ -7,7 +7,7 @@ test('Transfer Funds', async ({ page }) => {
   const transferPage = new TransferFundsPage(page);
 
   await loginPage.goto();
-  await loginPage.login('jack_2100', 'Luffy@Zoro');
+  await loginPage.login('jack_3001', 'Teddy@20');
 
   await transferPage.transferFunds('10');
 
