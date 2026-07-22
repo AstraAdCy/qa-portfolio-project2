@@ -7,7 +7,7 @@ test('Logout successfully', async ({ page }) => {
   const dashboardPage = new DashboardPage(page);
 
   await loginPage.goto();
-  await loginPage.login('jack_3001', 'Teddy@20');
+  await loginPage.login('jack_3002', 'Teddy@20');
 
   await dashboardPage.logout();
   await dashboardPage.verifyLogout();
@@ -17,7 +17,7 @@ test('View Account Overview', async ({ page }) => {
   const loginPage = new LoginPage(page);
 
   await loginPage.goto();
-  await loginPage.login('jack_3001', 'Teddy@20');
+  await loginPage.login('jack_3002', 'Teddy@20');
 
   await loginPage.verifyLoginSuccess();
 });

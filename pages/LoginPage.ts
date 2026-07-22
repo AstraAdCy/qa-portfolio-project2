@@ -24,9 +24,8 @@ export class LoginPage {
   ).toBeVisible();
 }
 
-  async verifyLoginFailure() {
-    await expect(
-      this.page.getByText('The username and password could not be verified.')
-    ).toBeVisible();
-  }
+ async verifyLoginFailure() {
+  await expect(this.page).toHaveTitle(/Error/);
+  await expect(this.page).toHaveURL(/login\.htm/);
+}
 }

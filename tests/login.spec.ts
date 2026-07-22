@@ -5,7 +5,7 @@ test('Valid Login', async ({ page }) => {
   const loginPage = new LoginPage(page);
 
   await loginPage.goto();
-  await loginPage.login('jack_3001', 'Teddy@20');
+  await loginPage.login('jack_3002', 'Teddy@20');
   await loginPage.verifyLoginSuccess();
 });
 
